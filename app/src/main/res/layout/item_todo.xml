@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/card"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="390dp"
+    android:layout_height="190dp"
+    android:backgroundTint="#6F2C5C"
+    app:cardCornerRadius="10dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginStart="13dp"
+>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/to_go_to_church"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:fontFamily="@font/inter_bold"
+            android:letterSpacing="0.02" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/inter_bold"
+            android:letterSpacing="0.02"
+            android:text="@string/_8_00_am"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

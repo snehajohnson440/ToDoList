@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ToDoList</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="tuesday_23_nov">Tuesday 23 Nov</string>
+    <string name="to_go_to_church">TO GO TO CHURCH</string>
+    <string name="_8_00_am">8:00 AM</string>
+    <string name="add_entrys">Add Entry</string>
+    <string name="save_daily_entry">Save Daily Entry</string>
+    <string name="set_time">Set Time</string>
+    <string name="to_do_get_all_the_work_done">To do get all the work done</string>
+    <string name="save_everyday_entry">Save EveryDay Entry</string>
+    <string name="everyday_list">Everyday List</string>
+    <string name="to">To</string>
+</resources>
